@@ -18,23 +18,6 @@ A powerful yet minimalist SaaS platform that enables developers to create fully-
 - **Real-time monitoring dashboard** with performance metrics and skeleton loading states
 - **Code generation and download** - Generate actual backend code from visual configurations
 
-## Data Storage
-**Database Tables (Persistent Storage):**
-- **projects** (eyjz57f8rzeo): User projects with code, settings, and collaboration data
-- **api_endpoints** (eyjz5jpbb2f4): API endpoint configurations and settings  
-- **database_schemas** (eyjz5twyd5og): Database schema definitions and relationships
-- **teams** (eyjz62x3ot1c): Team information and collaboration settings
-
-**Local Storage:** Zustand with persistence for auth state, collaboration state, localStorage for session management
-
-## Devv SDK Integration
-**Built-in Services:** 
-- **Authentication system** (email OTP verification) for user login/logout with persistent sessions
-- **Database operations** with full CRUD for projects, endpoints, schemas, and teams
-- **Real-time data persistence** and synchronization across all features
-
-**External Services:** None currently integrated
-
 ## Special Requirements
 - Dark-first interface optimized for coding experience  
 - Swiss/International Style minimalism with clean typography
